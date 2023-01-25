@@ -1,0 +1,9 @@
+./save/
+save/
+.idea/
+*.csv*
+*.zip*
+*.txt*
+*/__pycache__/
+*.db
+*.pdf
