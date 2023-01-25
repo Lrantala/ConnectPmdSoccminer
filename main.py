@@ -10,11 +10,6 @@ def argument_parser():
     parser.add_argument("-db", "--database",
                         help="Name of the path containing the database", required=True)
     parser.add_argument("-v", "--verbose", action="store_true", help="Whether to display logging information.")
-    parser.add_argument("-c", "--numbercommits", action="store_true", help="How many commits should the comment survive.")
-    parser.add_argument("--merges", dest="merges", action="store_true",
-                        help="Use only merge commits for tasks.")
-    parser.add_argument("--no-merges", dest="merges", action="store_false",
-                        help="Do not use only merge commits for tasks.")
     return parser
 
 
